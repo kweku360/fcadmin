@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title></title>
+
+    <!-- Semantic CSS -->
+    <link href="css/semantic.min.css" rel="stylesheet">
+
+    <!-- App CSS -->
+    <link href="css/appstyle.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div class="ui fluid container">
+        <div class="ui grid">
+            <!-- Start Menu panel -->
+            <div class="three wide column la-side-area">
+                <div class="la-logo-area">
+
+                </div>
+                <!-- Start Menu Area -->
+                <div class="ui fluid secondary vertical menu la-nav">
+                    <div class="item">
+                        <div class="ui input"><input type="text" placeholder="Search..."></div>
+                    </div>
+                    <div class="item">
+                        <div class="header la-nav__header">Navigation</div>
+                    </div>
+                    <div class="la-nav__item">
+                        <a class="item la-nav__item__a">
+                            <i class="gamepad layout icon"></i> Game
+                        </a>
+                        <a class="item la-nav__item__a">
+                            <i class="keyboard layout icon"></i> Events
+                        </a>
+                        <a class="item la-nav__item__a">
+                            <i class="user layout icon"></i> Players
+                        </a>
+                        <a class="item la-nav__item__a">
+                            <i class="euro sign layout icon"></i> Transactions
+                        </a>
+                    </div>
+                </div>
+                <!-- End Menu Area -->
+            </div>
+            <!-- End Menu Panel -->
+            <!-- Start Content Panel -->
+            <div class="thirteen wide column">
+                <div class="la-contenttop-area">
+                    <div class="ui grid">
+                        <div class="right floated five wide column">
+                            <button class="ui basic icon button la-contenttop-area__messages">
+                                <i class="icon bell outline"></i>
+                                <div class="floating ui tiny red label">22</div>
+                            </button>
+                            <button class="ui basic icon button la-contenttop-area__messages">
+                                <i class="icon mail"></i>
+                                <div class="floating ui tiny red label">22</div>
+                            </button>
+                            <div class="ui inline floating dropdown">
+                                <div class="text">
+                                    <img class="ui avatar image" src="images/jenny.jpg">
+                                    Kweku Kankam
+                                </div>
+                                <i class="dropdown icon"></i>
+                                <div class="menu">
+                                    <div class="item"><i class="user icon gold"></i> Profile</div>
+                                    <div class="item"><i class="file code icon orange"></i> Settings</div>
+                                    <div class="item"><i class="sign out alternate icon blue"></i> Log Out</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui divider"></div>
+                <div class="ui grid">
+                    <div class="twelve wide column">
+                        <h2 class="ui header">
+                            <i class="add icon"></i>
+                            <div class="content">
+                                Add Game
+                                <div class="sub header">Check out our plug-in marketplace</div>
+                            </div>
+                        </h2>
+                    </div>
+                    <div class="right floated two wide column">
+                        <button class="ui primary button">
+                            Add New
+                        </button>
+                    </div>
+                </div>
+                <div class="ui container">
+                    <div class="ui segment la-content-main">content
+                        <div style="height:1500px"></div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- End Content Panel -->
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/semantic.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.ui.dropdown')
+                .dropdown();
+        });
+    </script>
+</body>
+
+</html>

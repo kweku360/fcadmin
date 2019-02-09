@@ -1,0 +1,43 @@
+
+.la-side-area{
+    height:100vh;
+    background-color: #24244e;
+}
+.la-logo-area{
+    width: 100%;
+    height: 80px;
+    background-color: #24244e;
+}
+.la-nav{
+    background-color: #24244e !important;
+    margin: 0px !important;
+}
+.la-nav__header{
+    color: #ffffff
+}
+.la-nav__item{
+    font-size: 1.2em;
+    text-align: center;
+}
+.la-nav__item__a{
+    /* font-weight: 600 !important; */
+    color: #ffffff !important;
+}
+.la-contenttop-area{
+    width: 100%;
+    /* height: 50px; */
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+.la-contenttop-area__messages{
+    margin-right: 20px !important;
+    /* width: 20px !important; */
+    border: none !important;
+    position: relative!important;
+}
+.la-content-main{
+    margin-top: 20px !important;;
+    border-top: 2px solid #24244e!important;
+    max-height: 70vh;
+    overflow-y: auto;
+}

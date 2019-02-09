@@ -1,0 +1,36 @@
+{
+  "name": "fplui",
+  "version": "0.0.1",
+  "description": "Ui for Admin and other functions for fantasy cup",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "Kweku Kankam",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "jquery": "^3.3.1",
+    "next": "^8.0.0-canary.10",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "semantic-ui-react": "^0.84.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@storybook/addon-actions": "^4.1.7",
+    "@storybook/addon-links": "^4.1.7",
+    "@storybook/addons": "^4.1.7",
+    "@storybook/react": "^4.1.7",
+    "babel-loader": "^8.0.5",
+    "datatables.net": "^1.10.19"
+  }
+}
